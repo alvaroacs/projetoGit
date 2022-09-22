@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        :root{
+
+            --cor1:#114A5C;
+            --cor2:#6EC6E1;
+            --cor3:#2AB3DB;
+            --cor4:#2D515C;
+            --cor5:#2088A8;
+            --font:verdana;
+        }
+
+        header{
+         min-height:300px;
+         background-image:linear-gradient(to right,#114A55,#2D515C,#2088A8);
+         margin-top:0;
+        }
+
+        #titulo{
+             padding-top: 70px;
+             font-family:Arial, Helvetica, sans-serif;
+             font-weight: 600px;
+             font-size: 80px;
+             text-align: center;
+        }
+
+        nav{
+            padding: 12px;
+            background-color: var(--cor4);
+            min-height: 5px;
+            
+
+        }
+
+        nav > a {
+
+               text-decoration: none;
+               border-left: 1px solid black;
+               padding-left: 10px;
+               transition: 1s;
+               color: white;
+        }
+
+        nav > a:hover{
+
+            background-color:var(--cor3);
+            border-radius: 5px; 
+            padding: 10px; 
+            font-size: 14px;
+            transition: 1s;
+            border-right: 2px solid black;
+            border-bottom: 3px solid blanchedalmond;
+            border-style:inset 5px;
+            transition: 1s;
+            
+            
+           
+             }
+               
+        
+        body{
+            min-height: 800px;
+            background-color: var(--cor5);
+            margin:0;
+            padding: 10px;
+        }
+
+        body:hover{
+            background-color: #114A55;
+            transition:3s;
+        }
+
+        main{
+
+            min-height:800px;
+            width: 80%;
+            background-color: white;
+            margin:auto;
+            margin-top: -16px;
+            border-left: 3px solid black;
+            border-right: 5px solid blanchedalmond;
+        }
+
+        #e{
+            border-left:none;
+        }
+
+        p{
+              font-family:Arial, Helvetica, sans-serif;
+              font-weight: 800;
+              margin-left: 20px;
+              color:var(--cor2);
+              border-bottom: var(--cor2) solid 1px;
+        }
+
+        form{
+
+            margin-left: 50px;
+            border: var(--cor4) solid 3px;
+            border-radius: 8px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 300px;
+            background-color: var(--cor5);
+            color: white;
+
+        }
+
+
+        form > input{
+            display: block;
+            border: var(--cor4) solid 3px;
+            border-radius: 5px;
+            padding: 8px;
+
+        }
+
+        form > label{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 800;
+
+        }
+
+        #botao{
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 800;
+            background-color:#114A55;
+            color: white;
+            margin-top: 10px;
+
+        }
+
+
+h1{
+    color: var(--cor5);
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: #114A55;
+    color: white;
+    text-align: center;
+}        
+    </style>
+</head>
+<body>
+    <header>
+            <p id="titulo">Site projeto</p>
+    </header>
+    <nav>
+        <a href="https://anamariabraga.globo.com/" target="_blank">Culinaria</a> 
+        <a href="https://g1.globo.com/" target="_blank">Noticias</a> 
+        <a href="https://www.tecmundo.com.br/" target="_blank">Novidades</a>
+
+    </nav>
+    <main>
+    <div>
+        <h1>
+            titulo
+        </h1>          
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere fugiat neque explicabo laboriosam iusto voluptatibus! Ipsum dignissimos ratione, et numquam corrupti rem quisquam suscipit molestias eligendi deserunt cumque laboriosam debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nobis vel ducimus, consectetur iste beatae odit dolores, quos similique sequi, non minima odio atque quibusdam fugit corporis sint illum sed!</</p>
+    </div>
+
+          <form>
+            <label for="nome">Nome</label>
+            <input type="text">
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text">
+            <label for="cpf">CPF</label>
+            <input type="number">
+            <input id="botao" type="button" value="Envia"/>
+           </form> 
+
+    </main>
+    <footer>
+             produzido por ACS@corporation
+    </footer>
+
+    
+</body>
+</html>
